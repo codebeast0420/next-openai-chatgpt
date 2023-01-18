@@ -37,7 +37,6 @@ const Home: NextPage = () => {
                 <a
                   className="text-light"
                   href="https://fb.com/templatemo"
-                  target="_blank"
                   rel="sponsored"
                 >
                   <i className="fab fa-facebook-f fa-sm fa-fw me-2"></i>
@@ -45,21 +44,18 @@ const Home: NextPage = () => {
                 <a
                   className="text-light"
                   href="https://www.instagram.com/"
-                  target="_blank"
                 >
                   <i className="fab fa-instagram fa-sm fa-fw me-2"></i>
                 </a>
                 <a
                   className="text-light"
                   href="https://twitter.com/"
-                  target="_blank"
                 >
                   <i className="fab fa-twitter fa-sm fa-fw me-2"></i>
                 </a>
                 <a
                   className="text-light"
                   href="https://www.linkedin.com/"
-                  target="_blank"
                 >
                   <i className="fab fa-linkedin fa-sm fa-fw"></i>
                 </a>
@@ -224,43 +220,7 @@ const Home: NextPage = () => {
                       <p>
                         Fill out the questionnaire before speaking with the
                         nutritionist to help us understand your starting point
-                        and the goals you want to achieve:{" "}
-                        <a
-                          rel="sponsored"
-                          className="text-success"
-                          href="https://templatemo.com"
-                          target="_blank"
-                        >
-                          TemplateMo
-                        </a>{" "}
-                        website. Image credits go to{" "}
-                        <a
-                          rel="sponsored"
-                          className="text-success"
-                          href="https://stories.freepik.com/"
-                          target="_blank"
-                        >
-                          Freepik Stories
-                        </a>
-                        ,
-                        <a
-                          rel="sponsored"
-                          className="text-success"
-                          href="https://unsplash.com/"
-                          target="_blank"
-                        >
-                          Unsplash
-                        </a>{" "}
-                        and
-                        <a
-                          rel="sponsored"
-                          className="text-success"
-                          href="https://icons8.com/"
-                          target="_blank"
-                        >
-                          Icons 8
-                        </a>
-                        .
+                        and the goals you want to achieve:
                       </p>
                     </div>
                   </div>
@@ -398,7 +358,6 @@ const Home: NextPage = () => {
                   <li className="list-inline-item border border-light rounded-circle text-center">
                     <a
                       className="text-light text-decoration-none"
-                      target="_blank"
                       href="http://facebook.com/"
                     >
                       <i className="fab fa-facebook-f fa-lg fa-fw"></i>
@@ -407,7 +366,6 @@ const Home: NextPage = () => {
                   <li className="list-inline-item border border-light rounded-circle text-center">
                     <a
                       className="text-light text-decoration-none"
-                      target="_blank"
                       href="https://www.instagram.com/"
                     >
                       <i className="fab fa-instagram fa-lg fa-fw"></i>
@@ -416,7 +374,6 @@ const Home: NextPage = () => {
                   <li className="list-inline-item border border-light rounded-circle text-center">
                     <a
                       className="text-light text-decoEmailration-none"
-                      target="_blank"
                       href="https://twitter.com/"
                     >
                       <i className="fab fa-twitter fa-lg fa-fw"></i>
@@ -425,7 +382,6 @@ const Home: NextPage = () => {
                   <li className="list-inline-item border border-light rounded-circle text-center">
                     <a
                       className="text-light text-decoration-none"
-                      target="_blank"
                       href="https://www.linkedin.com/"
                     >
                       <i className="fab fa-linkedin fa-lg fa-fw"></i>
