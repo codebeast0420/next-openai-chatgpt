@@ -3,6 +3,7 @@ import type { NextPage } from 'next';
 import {ChatBox} from '../components/ChatBox';
 
 const Home: NextPage = () => {
+  const a = process.env.NEXT_PUBLIC_TEST;
   // const [value, setValue] = React.useState<string>('');
   // const [prompt, setPrompt] = React.useState<string>('');
   // const [completion, setCompletion] = React.useState<string>('');
@@ -33,6 +34,8 @@ const Home: NextPage = () => {
 
   return (
     <div>
+      <h5>AAAA</h5>
+      <h5>{a}</h5>
       <ChatBox />
     </div>
   );
