@@ -220,39 +220,7 @@ const Home: NextPage = () => {
                       <p>
                         Fill out the questionnaire before speaking with the
                         nutritionist to help us understand your starting point
-                        and the goals you want to achieve:{" "}
-                        <a
-                          rel="sponsored"
-                          className="text-success"
-                          href="https://templatemo.com"
-                        >
-                          TemplateMo
-                        </a>{" "}
-                        website. Image credits go to{" "}
-                        <a
-                          rel="sponsored"
-                          className="text-success"
-                          href="https://stories.freepik.com/"
-                        >
-                          Freepik Stories
-                        </a>
-                        ,
-                        <a
-                          rel="sponsored"
-                          className="text-success"
-                          href="https://unsplash.com/"
-                        >
-                          Unsplash
-                        </a>{" "}
-                        and
-                        <a
-                          rel="sponsored"
-                          className="text-success"
-                          href="https://icons8.com/"
-                        >
-                          Icons 8
-                        </a>
-                        .
+                        and the goals you want to achieve:
                       </p>
                     </div>
                   </div>
