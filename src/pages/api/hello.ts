@@ -1,9 +1,9 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { Configuration, OpenAIApi } from 'openai';
 
 const configuration = new Configuration({
-  apiKey: "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",
+  // apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY,
+  apiKey: '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',
 });
 const openai = new OpenAIApi(configuration);
 
@@ -11,6 +11,7 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
+  console.log('aaa');
   const completion = await openai.createCompletion({
     model: 'text-davinci-002',
     prompt: req.body.text,
