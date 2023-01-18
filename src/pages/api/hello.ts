@@ -2,8 +2,7 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 import { Configuration, OpenAIApi } from 'openai';
 
 const configuration = new Configuration({
-  // apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY,
-  apiKey: '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',
+  apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY,
 });
 const openai = new OpenAIApi(configuration);
 
