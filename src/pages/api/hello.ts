@@ -10,9 +10,8 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  console.log('aaa');
   const completion = await openai.createCompletion({
-    model: 'text-davinci-002',
+    model: 'text-davinci-003',
     prompt: req.body.text,
     temperature: 0.7,
     top_p: 1,
