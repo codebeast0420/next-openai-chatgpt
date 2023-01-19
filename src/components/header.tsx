@@ -9,7 +9,7 @@ const Header = () => {
         className="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block"
         id="templatemo_nav_top"
       >
-        <div className="container text-light">
+        <div className="container">
           <div className="w-100 d-flex justify-content-between">
             <div>
               <i className="fa fa-envelope mx-2"></i>
@@ -50,11 +50,12 @@ const Header = () => {
       </nav>
       <nav className="navbar navbar-expand-lg navbar-light shadow">
         <div className="header-logo">
-          <Image src={logo} alt="vitastrong logo" width={500} height={500} />
+          <Image src={logo} alt="vitastrong logo" width={100} height={100} />
         </div>
         <div className="container d-flex justify-content-between align-items-center">
           <div
-            className="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
+            className="align-self-center  navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
+            style={{ marginLeft: "10%" }}
             id="templatemo_main_nav"
           >
             <div className="flex-fill">
