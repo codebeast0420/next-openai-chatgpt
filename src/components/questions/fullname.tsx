@@ -4,7 +4,7 @@ const FullName = () => {
   return (
     <div className="carousel-item active d-flex align-items-center flex-column justify-content-center">
       <div className="container d-flex flex-column align-items-center mb-20">
-        <div className="fs-4">What's your name?</div>
+        <div className="fs-4">What is your name?</div>
         <input type="text" className="w-80 mt-20 p-2 rounded-pill shadow-lg" placeholder="Your Name" />
       </div>
       <div className="d-flex">
