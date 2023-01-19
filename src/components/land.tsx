@@ -1,11 +1,14 @@
-import React from "react";
+import React, { FC } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
-import Start from "./questions/start";
 
-const Land = ({ slides }) => {
+interface Land {
+  slides: FC[],
+}
+
+const Land: FC<Land> = (props) => {
   return (
     <div
       id="template-mo-zay-hero-carousel"
@@ -25,11 +28,9 @@ const Land = ({ slides }) => {
             prevEl: ".prev-fact",
           }}
         >
-          {slides.map((slide, index) => (
-						<SwiperSlide key={index}>
-							{slide}
-						</SwiperSlide>
-					))}
+          {props.slides?.map((slide: FC, index: number) => (
+            <SwiperSlide key={index}>{slide}</SwiperSlide>
+          ))}
           {/* <SwiperSlide>
             <div className="carousel-item active d-flex align-items-center flex-column justify-content-center">
               <div className="container d-flex flex-column align-items-center mb-20">
