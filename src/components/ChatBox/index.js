@@ -28,9 +28,8 @@ export const ChatBox = () => {
 		console.log("msg", msgs)
 	}
 
-	const handleKeyDown =  (e) => {
-		if (e.key === 'Enter')
-		{
+	const handleKeyDown = (e) => {
+		if (e.key === 'Enter') {
 			handleClick();
 		}
 	}

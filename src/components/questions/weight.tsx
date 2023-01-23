@@ -7,13 +7,13 @@ const Weight = () => {
         <div className="fs-4">Your Weight?</div>
         <input
           type="text"
-          className="w-80 mt-2 p-2 rounded-pill shadow-lg"
+          className="w-80 mt-2 pt-2 pr-2 pb-2 pl-5 rounded-pill shadow-lg"
           placeholder="Your Weight  Kg"
         />
         <div className="fs-4 mt-5">Goal of Weight</div>
         <input
           type="text"
-          className="w-80 mt-2 p-2 rounded-pill shadow-lg"
+          className="w-80 mt-2 pt-2 pr-2 pb-2 pl-5 rounded-pill shadow-lg"
           placeholder="Goal of Weight  Kg"
         />
       </div>
