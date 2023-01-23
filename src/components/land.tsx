@@ -57,7 +57,7 @@ const Land: FC<Land> = (props) => {
                 </button>
                 <button className="btn btn-secondary next-fact pl-3 pr-3 pt-1 pb-1 w-40 fs-3 rounded-pill mb-[20px] ml-20">
                   Next
-                </button>
+                </button> 
               </div>
             </div>
           </SwiperSlide> */}
